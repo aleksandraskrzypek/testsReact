@@ -1,0 +1,51 @@
+body{
+ background-color: white;
+ margin: 0;
+}
+
+.naglowek{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(157,135,227,1) 0%, rgba(47,34,84,1) 100%);
+}
+
+.naglowek p{
+    color:whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 2px 0 rgba(47,34,84,1);
+    margin:auto;
+}
+
+.rzut {
+    position: relative;
+    width: 90%;
+    margin: auto;   
+}
+
+.rzut form {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;   
+}
+
+.rzut button {
+    border: none;
+    font-size: 25px;
+    color: white;
+    background: #6441A5;
+    cursor: pointer;  
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rzut h1 {
+    text-align: center;
+    font-size: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #6441A5;
+}
